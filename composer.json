@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ImageScrapper\\": "src"
+            "anhhuy2000au\ImageScrapper\\": "src/"
         }
     },
     "scripts": {
