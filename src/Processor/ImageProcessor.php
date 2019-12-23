@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace anhhuy2000AU\ImageScrapper\Processor;
+namespace anhhuy2000au\ImageScrapper\Processor;
 
-use anhhuy2000AU\ImageScrapper\ImageScrapperInterface;
-use anhhuy2000AU\ImageScrapper\Repository\ImageRepositoryInterface;
+use anhhuy2000au\ImageScrapper\ImageScrapperInterface;
+use anhhuy2000au\ImageScrapper\Repository\ImageRepositoryInterface;
 
 class ImageProcessor
 {
@@ -19,8 +19,8 @@ class ImageProcessor
     /**
      * Constructing function
      *
-     * @param anhhuy2000AU\ImageScrapper\ImageScrapperInterface $imageScrapperInterface
-     * @param anhhuy2000AU\ImageScrapper\Repository\ImageRepositoryInterface $imageRepositoryInterface
+     * @param anhhuy2000au\ImageScrapper\ImageScrapperInterface $imageScrapperInterface
+     * @param anhhuy2000au\ImageScrapper\Repository\ImageRepositoryInterface $imageRepositoryInterface
      */
     public function __construct(
         ImageScrapperInterface $imageScrapperInterface,

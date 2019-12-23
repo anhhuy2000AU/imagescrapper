@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace anhhuy2000AU\ImageScrapper\Entity;
+namespace anhhuy2000au\ImageScrapper\Entity;
 
-class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImageEntity
+class DefaultImageEntity extends \anhhuy2000au\ImageScrapper\Entity\AbstractImageEntity
 {
 
     /**
@@ -79,7 +79,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set keyword.
      *
      * @param string $keyword
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setKeyword(string $keyword): DefaultImageEntity
     {
@@ -102,7 +102,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set slug.
      *
      * @param string $slug
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setSlug(string $slug): DefaultImageEntity
     {
@@ -125,7 +125,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set title.
      *
      * @param string|null $title
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setTitle(?string $title = null): DefaultImageEntity
     {
@@ -148,7 +148,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set url.
      *
      * @param string|null $url
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setUrl(?string $url = null): DefaultImageEntity
     {
@@ -171,7 +171,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set filetype.
      *
      * @param string|null $filetype
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setFiletype(?string $filetype = null): DefaultImageEntity
     {
@@ -194,7 +194,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set width.
      *
      * @param int|null $width
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setWidth(?int $width = null): DefaultImageEntity
     {
@@ -217,7 +217,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set height.
      *
      * @param int|null $height
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setHeight(?int $height = null): DefaultImageEntity
     {
@@ -240,7 +240,7 @@ class DefaultImageEntity extends \anhhuy2000AU\ImageScrapper\Entity\AbstractImag
      * Set source.
      *
      * @param string|null $source
-     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000au\ImageScrapper\Entity\DefaultImageEntity
      */
     public function setSource(?string $source = null): DefaultImageEntity
     {

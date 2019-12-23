@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace anhhuy2000AU\ImageScrapper;
+namespace anhhuy2000au\ImageScrapper;
 
 use Buchin\GoogleImageGrabber\GoogleImageGrabber;
 
