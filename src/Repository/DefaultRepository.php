@@ -4,16 +4,16 @@ declare(strict_types = 1);
 
 namespace anhhuy2000AU\ImageScrapper\Repository;
 
-use App\Domain\Entity\DefaultImageEntity;
+use anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity;
 
-class DefaultRepository implements \App\Domain\ImageScrapper\Repository\ImageRepositoryInterface
+class DefaultRepository implements \anhhuy2000AU\ImageScrapper\Repository\ImageRepositoryInterface
 {
 
     /**
      * Convert array of images into entity
      *
      * @param string[] $image
-     * @return \App\Domain\ImageScrapper\Entity\DefaultImageEntity
+     * @return \anhhuy2000AU\ImageScrapper\Entity\DefaultImageEntity
      */
     public function arrayToEntity(array $image): DefaultImageEntity
     {

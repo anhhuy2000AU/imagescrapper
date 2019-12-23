@@ -11,7 +11,8 @@
     ],
     "type": "library",
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "buchin/google-image-grabber": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "6.*",
